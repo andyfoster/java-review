@@ -3,8 +3,10 @@ package net.andyfoster;
 public class CreateInstanceOfClass {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		MyClass mc = new MyClass();
+		mc.myMethod();
+		mc.myInt = 10; // can modify properties
+		System.out.println(mc.myInt);
 	}
 
 }
